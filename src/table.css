@@ -1,0 +1,101 @@
+body {
+  font-family: 'Teko';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 2em;
+  box-sizing: border-box;
+  background: #833ab4; 
+  background: -webkit-linear-gradient(to right, #b1d2e9, #45545a, #FFFFFF);
+  background: linear-gradient(to right, #2980B9, #6DD5FA, #575252);
+  color: #fff;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+
+h1 {
+  color: #fff;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.6);
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 30px;
+  line-height: 1.3em;
+  font-weight: bold;
+  margin-top: 0.67em;
+  margin-bottom: 25px;
+}
+
+.todo-list {
+  padding-top: 10px;
+  width: 400px;
+  background: #f37070;
+}
+
+.todo {
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 3px 10px;
+  padding-top: 10px;
+  font-size: 24px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+
+
+
+
+
+.button_submit{
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  font-size: 20px;
+  padding-left: 25px;
+  margin: 20px;
+  background-color: rgb(40, 31, 161);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+.todo button {
+  color: #f37070;
+  background: red;
+}
+
+input {
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 3px 10px;
+  padding-top: 10px;
+  font-size: 24px;
+  margin-bottom: 12px;
+  border-radius: 3px;
+  
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.form {
+  border-top: 1px solid;
+  display: flex;
+  padding-top: 10px;
+  margin-top: 10px
+}
+
